@@ -40,9 +40,12 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.727);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
-section#login > div#imagen {
+section#login > div#imagem {
     display: block;
     background: #08B39C url(../imagens/pexels-ben-neale-123878-380337.jpg) no-repeat;
     background-size: cover;
