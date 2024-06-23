@@ -32,19 +32,23 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    overflow: hiden;
 
     background-color: white;
     width:250px ;
     height: 500px;
     border-radius: 20px;
-    border-radius-top:20px ;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.727);
 }
 
 section#login > div#imagen {
+    display: block;
     background: #08B39C url(../imagens/pexels-ben-neale-123878-380337.jpg);
     background-size: cover;
-    background-position: left bottom;
     height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
 }
